@@ -9,7 +9,7 @@ const Contact = () => {
         e.preventDefault();
         const formMess = document.querySelector(".form-message");
 
-        emailjs.sendForm('service_g7nfvmh', 'template_1ir1oyk', form.current, process.env.REACT_APP_API_KEY)
+        emailjs.sendForm('service_g7nfvmh', 'template_1ir1oyk', form.current, {publicKey: process.env.REACT_APP_API_KEY})
             .then((result) => {
                 console.log(result.text);
                 form.current.reset();
