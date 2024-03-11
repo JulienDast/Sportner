@@ -9,7 +9,7 @@ const Contact = () => {
         e.preventDefault();
         const formMess = document.querySelector(".form-message");
 
-        emailjs.sendForm('service_3fs5cnc', 'template_hsmdtv6', form.current, process.env.REACT_APP_API_KEY)
+        emailjs.sendForm('service_g7nfvmh', 'template_1ir1oyk', form.current, process.env.REACT_APP_API_KEY)
             .then(() => {
                 form.current.reset();
                 formMess.innerHTML = "<p className='success'>Message envoyé !</p>";
@@ -33,9 +33,9 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
                 <h3 id='contact-text'>Des suggestions ? Contactez-nous !</h3>
                 <label>Nom</label>
-                <input id='name' type="text" name="name" required autoComplete='off' />
+                <input id='name' type="text" name="from_name" required autoComplete='off' />
                 <label>Email</label>
-                <input id='email' type="email" name="email" required autoComplete='off' />
+                <input id='email' type="email" name="from_email" required autoComplete='off' />
                 <label>Message</label>
                 <textarea id='message' name="message" required />
                 <input className='button' type="submit" value="Envoyer" />
