@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b624916.css",
+    "main.js": "/static/js/main.bba4a960.js",
+    "static/media/tennis.webp": "/static/media/tennis.97de0fd5bddf4588d575.webp",
+    "static/media/five.webp": "/static/media/five.8b3119b39923690de15f.webp",
+    "static/media/shoes.webp": "/static/media/shoes.91c002c483f68c6e0bc1.webp",
+    "static/media/about.webp": "/static/media/about.13c0206e719f4a8f2ec7.webp",
+    "static/media/padel.webp": "/static/media/padel.6bd4178eb685d2958035.webp",
+    "static/media/Bornspeed-Regular.otf": "/static/media/Bornspeed-Regular.f7756a8d50554d4615cb.otf",
+    "static/media/fly.webp": "/static/media/fly.3f04d4ac54d53efa3f8f.webp",
+    "index.html": "/index.html",
+    "main.0b624916.css.map": "/static/css/main.0b624916.css.map",
+    "main.bba4a960.js.map": "/static/js/main.bba4a960.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b624916.css",
+    "static/js/main.bba4a960.js"
+  ]
+}
